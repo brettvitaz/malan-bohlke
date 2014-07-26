@@ -10,7 +10,7 @@ VTProeVer=5.5.08
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Security (02 - Keypad)_Simple Keypad.ced
 Hint=Simple Keypad (Smart Object ID=61)
-Code=13
+Code=11
 GUID=87DC64F3-A1BF-4388-8089-89FC4D81B423
 SmplCName=DGE2-V15 - Bohlke_Security (02 - Keypad)_Simple Keypad.ced
 SMWRev=4.02.19
@@ -81,14 +81,14 @@ OutputSigType12=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=13
-CedH=13
+Pp1=11
+CedH=11
 SmartObjId=61d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=13
+H=11
 Tp=1
 HD=TRUE
 DV=61d
@@ -101,7 +101,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=13
+H=11
 Name=DGE2-V15 - Bohlke_Security (02 - Keypad)_Simple Keypad.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

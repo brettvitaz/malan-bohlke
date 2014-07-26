@@ -10,7 +10,7 @@ VTProeVer=5.5.08
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Satellite Keypad.ced
 Hint=Satellite Keypad (Smart Object ID=312)
-Code=27
+Code=22
 GUID=E670C0C6-1998-46C7-A432-6FB10C0D67EE
 SmplCName=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Satellite Keypad.ced
 SMWRev=4.02.19
@@ -81,14 +81,14 @@ OutputSigType12=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=27
-CedH=27
+Pp1=22
+CedH=22
 SmartObjId=312d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=27
+H=22
 Tp=1
 HD=TRUE
 DV=312d
@@ -101,7 +101,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=27
+H=22
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Satellite Keypad.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

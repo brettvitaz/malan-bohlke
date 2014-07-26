@@ -10,7 +10,7 @@ VTProeVer=5.5.08
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (26 CD - Main)_Transports.ced
 Hint=Transports (Smart Object ID=261)
-Code=4
+Code=2
 GUID=9E999062-8CDB-454A-BA2E-5A34C2251D0F
 SmplCName=DGE2-V15 - Bohlke_Source (26 CD - Main)_Transports.ced
 SMWRev=4.02.19
@@ -85,14 +85,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=4
-CedH=4
+Pp1=2
+CedH=2
 SmartObjId=261d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=4
+H=2
 Tp=1
 HD=TRUE
 DV=261d
@@ -105,7 +105,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=4
+H=2
 Name=DGE2-V15 - Bohlke_Source (26 CD - Main)_Transports.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

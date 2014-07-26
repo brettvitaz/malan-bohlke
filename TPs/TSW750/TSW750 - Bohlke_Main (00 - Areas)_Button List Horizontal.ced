@@ -4,14 +4,14 @@ Sgntr=FlashComposite
 ;Increment this version when CED file format changes
 RelVrs=2
 IntStrVrs=1
-VTProeVer=5.5.08
+VTProeVer=5.5.11
 ]
 [
 ObjTp=Symbol
 Name=TSW750 - Bohlke_Main (00 - Areas)_Button List Horizontal.ced
 Hint=Button List Horizontal (Smart Object ID=11)
-Code=8
-GUID=0693A305-6288-41F9-9D1E-7D5FB72730F2
+Code=2
+GUID=91B92DB8-3B4D-41A6-8714-BE7C3A178EA4
 SmplCName=TSW750 - Bohlke_Main (00 - Areas)_Button List Horizontal.ced
 SMWRev=4.02.19
 Expand=expand_random
@@ -81,14 +81,14 @@ OutputList3SigType3=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=8
-CedH=8
+Pp1=2
+CedH=2
 SmartObjId=11d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=8
+H=2
 Tp=1
 HD=TRUE
 DV=11d
@@ -101,7 +101,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=8
+H=2
 Name=TSW750 - Bohlke_Main (00 - Areas)_Button List Horizontal.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

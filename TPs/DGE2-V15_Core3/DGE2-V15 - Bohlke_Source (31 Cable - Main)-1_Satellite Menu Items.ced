@@ -10,7 +10,7 @@ VTProeVer=5.5.08
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Satellite Menu Items.ced
 Hint=Satellite Menu Items (Smart Object ID=314)
-Code=26
+Code=21
 GUID=872D54F0-DB31-464D-B116-8BE36C8FEB43
 SmplCName=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Satellite Menu Items.ced
 SMWRev=4.02.19
@@ -121,14 +121,14 @@ OutputList3SigType8=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=26
-CedH=26
+Pp1=21
+CedH=21
 SmartObjId=314d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=26
+H=21
 Tp=1
 HD=TRUE
 DV=314d
@@ -141,7 +141,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=26
+H=21
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Satellite Menu Items.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

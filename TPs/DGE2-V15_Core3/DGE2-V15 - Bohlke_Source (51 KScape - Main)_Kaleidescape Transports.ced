@@ -10,7 +10,7 @@ VTProeVer=5.5.08
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (51 KScape - Main)_Kaleidescape Transports.ced
 Hint=Kaleidescape Transports (Smart Object ID=511)
-Code=10
+Code=8
 GUID=1FF73CA4-B87A-48C4-ADD0-8893AE55D68B
 SmplCName=DGE2-V15 - Bohlke_Source (51 KScape - Main)_Kaleidescape Transports.ced
 SMWRev=4.02.19
@@ -85,14 +85,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=10
-CedH=10
+Pp1=8
+CedH=8
 SmartObjId=511d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=10
+H=8
 Tp=1
 HD=TRUE
 DV=511d
@@ -105,7 +105,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=10
+H=8
 Name=DGE2-V15 - Bohlke_Source (51 KScape - Main)_Kaleidescape Transports.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

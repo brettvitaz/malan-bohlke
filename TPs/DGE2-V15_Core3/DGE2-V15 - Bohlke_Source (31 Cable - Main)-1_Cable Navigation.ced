@@ -10,7 +10,7 @@ VTProeVer=5.5.08
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Cable Navigation.ced
 Hint=Cable Navigation (Smart Object ID=313)
-Code=25
+Code=20
 GUID=F27A7C14-8596-4DAB-9E94-1DE0E030B1FF
 SmplCName=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Cable Navigation.ced
 SMWRev=4.02.19
@@ -53,14 +53,14 @@ OutputSigType5=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=25
-CedH=25
+Pp1=20
+CedH=20
 SmartObjId=313d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=25
+H=20
 Tp=1
 HD=TRUE
 DV=313d
@@ -73,7 +73,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=25
+H=20
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Cable Navigation.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

@@ -10,7 +10,7 @@ VTProeVer=5.5.08
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Favs)_TV Favs.ced
 Hint=TV Favs (Smart Object ID=319)
-Code=6
+Code=4
 GUID=37EE11BA-7FCA-4579-8C64-8198B06C064F
 SmplCName=DGE2-V15 - Bohlke_Source (31 Cable - Favs)_TV Favs.ced
 SMWRev=4.02.19
@@ -225,14 +225,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=6
-CedH=6
+Pp1=4
+CedH=4
 SmartObjId=319d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=6
+H=4
 Tp=1
 HD=TRUE
 DV=319d
@@ -245,7 +245,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=6
+H=4
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Favs)_TV Favs.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

@@ -4,14 +4,14 @@ Sgntr=FlashComposite
 ;Increment this version when CED file format changes
 RelVrs=2
 IntStrVrs=1
-VTProeVer=5.5.08
+VTProeVer=5.5.11
 ]
 [
 ObjTp=Symbol
 Name=TSW750 - Bohlke_Main (00 - Sources)_Source List.ced
 Hint=Source List (Smart Object ID=1)
 Code=1
-GUID=3B8670C5-B301-4D28-9058-6EDB2A87288D
+GUID=8F05B31C-F47E-4982-A801-26F67E29FB74
 SmplCName=TSW750 - Bohlke_Main (00 - Sources)_Source List.ced
 SMWRev=4.02.19
 Expand=expand_random

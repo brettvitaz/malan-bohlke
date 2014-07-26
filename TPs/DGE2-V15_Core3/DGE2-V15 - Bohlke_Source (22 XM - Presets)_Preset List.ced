@@ -10,7 +10,7 @@ VTProeVer=5.5.08
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (22 XM - Presets)_Preset List.ced
 Hint=Preset List (Smart Object ID=221)
-Code=8
+Code=6
 GUID=C0D9E87B-6FB2-4EA5-AAC5-F182FD94ABA7
 SmplCName=DGE2-V15 - Bohlke_Source (22 XM - Presets)_Preset List.ced
 SMWRev=4.02.19
@@ -129,14 +129,14 @@ OutputList3SigType9=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=8
-CedH=8
+Pp1=6
+CedH=6
 SmartObjId=221d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=8
+H=6
 Tp=1
 HD=TRUE
 DV=221d
@@ -149,7 +149,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=8
+H=6
 Name=DGE2-V15 - Bohlke_Source (22 XM - Presets)_Preset List.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

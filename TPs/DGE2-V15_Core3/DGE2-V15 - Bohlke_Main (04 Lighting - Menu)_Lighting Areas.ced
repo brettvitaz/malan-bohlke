@@ -10,7 +10,7 @@ VTProeVer=5.5.08
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Main (04 Lighting - Menu)_Lighting Areas.ced
 Hint=Lighting Areas (Smart Object ID=41)
-Code=17
+Code=14
 GUID=61CEEAAF-D713-4C50-8FD4-676040A96CCA
 SmplCName=DGE2-V15 - Bohlke_Main (04 Lighting - Menu)_Lighting Areas.ced
 SMWRev=4.02.19
@@ -61,14 +61,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=17
-CedH=17
+Pp1=14
+CedH=14
 SmartObjId=41d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=17
+H=14
 Tp=1
 HD=TRUE
 DV=41d
@@ -81,7 +81,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=17
+H=14
 Name=DGE2-V15 - Bohlke_Main (04 Lighting - Menu)_Lighting Areas.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

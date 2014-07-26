@@ -10,7 +10,7 @@ VTProeVer=5.5.08
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox List.ced
 Hint=Jukebox List (Smart Object ID=721)
-Code=24
+Code=19
 GUID=D6A51BD0-F580-4B3A-B480-C845B9800856
 SmplCName=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox List.ced
 SMWRev=4.02.19
@@ -121,14 +121,14 @@ OutputList3SigType8=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=24
-CedH=24
+Pp1=19
+CedH=19
 SmartObjId=721d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=24
+H=19
 Tp=1
 HD=TRUE
 DV=721d
@@ -141,7 +141,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=24
+H=19
 Name=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox List.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

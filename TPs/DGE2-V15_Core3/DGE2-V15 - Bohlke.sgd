@@ -21,10 +21,10 @@ SmplCName=DGE2-V15 - Bohlke_Main (01 Audio - Menu)_Source List.ced
 SMWRev=4.02.19
 Expand=expand_random
 ;Define the number of inputs, outputs and parameters
-MinVariableInputs=7
-MaxVariableInputs=7
-MinVariableOutputs=7
-MaxVariableOutputs=7
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
 NumFixedParams=1
 MinVariableInputsList2=6
 MaxVariableInputsList2=6
@@ -55,14 +55,6 @@ InputCue5=[~UNUSED3~]
 InputSigType5=Digital
 OutputCue5=Item 5 Pressed
 OutputSigType5=Digital
-InputCue6=[~UNUSED3~]
-InputSigType6=Digital
-OutputCue6=Item 6 Pressed
-OutputSigType6=Digital
-InputCue7=[~UNUSED3~]
-InputSigType7=Digital
-OutputCue7=Item 7 Pressed
-OutputSigType7=Digital
 InputList2Cue1=Select Item
 InputList2SigType1=Analog
 OutputList2Cue1=[~UNUSED3~]
@@ -119,261 +111,9 @@ CedVer=1
 ;================================================================================
 [
 ObjTp=Symbol
-Name=DGE2-V15 - Bohlke_Source (16 - Tuner - Main)_Tuner Preset List.ced
-Hint=Tuner Preset List (Smart Object ID=172)
-Code=2
-GUID=3284361E-FA8D-4B65-8CB9-CCE9530F05D3
-SmplCName=DGE2-V15 - Bohlke_Source (16 - Tuner - Main)_Tuner Preset List.ced
-SMWRev=4.02.19
-Expand=expand_random
-;Define the number of inputs, outputs and parameters
-MinVariableInputs=9
-MaxVariableInputs=9
-MinVariableOutputs=9
-MaxVariableOutputs=9
-NumFixedParams=1
-MinVariableInputsList2=6
-MaxVariableInputsList2=6
-MinVariableOutputsList2=6
-MaxVariableOutputsList2=6
-MinVariableInputsList3=9
-MaxVariableInputsList3=9
-MinVariableOutputsList3=9
-MaxVariableOutputsList3=9
-;Define the cues, and signal types  each input, output and parameter.
-InputCue1=[~UNUSED3~]
-InputSigType1=Digital
-OutputCue1=Item 1 Pressed
-OutputSigType1=Digital
-InputCue2=[~UNUSED3~]
-InputSigType2=Digital
-OutputCue2=Item 2 Pressed
-OutputSigType2=Digital
-InputCue3=[~UNUSED3~]
-InputSigType3=Digital
-OutputCue3=Item 3 Pressed
-OutputSigType3=Digital
-InputCue4=[~UNUSED3~]
-InputSigType4=Digital
-OutputCue4=Item 4 Pressed
-OutputSigType4=Digital
-InputCue5=[~UNUSED3~]
-InputSigType5=Digital
-OutputCue5=Item 5 Pressed
-OutputSigType5=Digital
-InputCue6=[~UNUSED3~]
-InputSigType6=Digital
-OutputCue6=Item 6 Pressed
-OutputSigType6=Digital
-InputCue7=[~UNUSED3~]
-InputSigType7=Digital
-OutputCue7=Item 7 Pressed
-OutputSigType7=Digital
-InputCue8=[~UNUSED3~]
-InputSigType8=Digital
-OutputCue8=Item 8 Pressed
-OutputSigType8=Digital
-InputCue9=[~UNUSED3~]
-InputSigType9=Digital
-OutputCue9=Item 9 Pressed
-OutputSigType9=Digital
-InputList2Cue1=Select Item
-InputList2SigType1=Analog
-OutputList2Cue1=[~UNUSED3~]
-OutputList2SigType1=Analog
-InputList2Cue2=Deselect Item
-InputList2SigType2=Analog
-OutputList2Cue2=[~UNUSED3~]
-OutputList2SigType2=Analog
-InputList2Cue3=Scroll Item
-InputList2SigType3=Analog
-OutputList2Cue3=[~UNUSED3~]
-OutputList2SigType3=Analog
-InputList2Cue4=[~UNUSED3~]
-InputList2SigType4=Analog
-OutputList2Cue4=Item Clicked
-OutputList2SigType4=Analog
-InputList2Cue5=[~UNUSED3~]
-InputList2SigType5=Analog
-OutputList2Cue5=Item Held
-OutputList2SigType5=Analog
-InputList2Cue6=Set Num of Items
-InputList2SigType6=Analog
-OutputList2Cue6=[~UNUSED3~]
-OutputList2SigType6=Analog
-InputList3Cue1=Item 1 Text
-InputList3SigType1=Serial
-OutputList3Cue1=[~UNUSED3~]
-OutputList3SigType1=Serial
-InputList3Cue2=Item 2 Text
-InputList3SigType2=Serial
-OutputList3Cue2=[~UNUSED3~]
-OutputList3SigType2=Serial
-InputList3Cue3=Item 3 Text
-InputList3SigType3=Serial
-OutputList3Cue3=[~UNUSED3~]
-OutputList3SigType3=Serial
-InputList3Cue4=Item 4 Text
-InputList3SigType4=Serial
-OutputList3Cue4=[~UNUSED3~]
-OutputList3SigType4=Serial
-InputList3Cue5=Item 5 Text
-InputList3SigType5=Serial
-OutputList3Cue5=[~UNUSED3~]
-OutputList3SigType5=Serial
-InputList3Cue6=Item 6 Text
-InputList3SigType6=Serial
-OutputList3Cue6=[~UNUSED3~]
-OutputList3SigType6=Serial
-InputList3Cue7=Item 7 Text
-InputList3SigType7=Serial
-OutputList3Cue7=[~UNUSED3~]
-OutputList3SigType7=Serial
-InputList3Cue8=Item 8 Text
-InputList3SigType8=Serial
-OutputList3Cue8=[~UNUSED3~]
-OutputList3SigType8=Serial
-InputList3Cue9=Item 9 Text
-InputList3SigType9=Serial
-OutputList3Cue9=[~UNUSED3~]
-OutputList3SigType9=Serial
-ParamCue1=SmartObjectId
-ParamSigType1=Constant
-MPp=1
-Pp1=2
-CedH=2
-SmartObjId=172d
-]
-; Parameter Properties for Smart Object ID
-[
-ObjTp=Dp
-H=2
-Tp=1
-HD=TRUE
-DV=172d
-NF=1
-DNF=1
-EncFmt=0
-DVLF=1
-Sgn=0
-]
-; Smart Objects Definition section
-[
-ObjTp=CED
-H=2
-Name=DGE2-V15 - Bohlke_Source (16 - Tuner - Main)_Tuner Preset List.ced
-;Cedver is the version of the Smart Graphics control, not the CED file format.
-;If the control definition changes, increment this.
-CedVer=1
-]
-;================================================================================
-[
-ObjTp=Symbol
-Name=DGE2-V15 - Bohlke_Source (16 - Tuner - Main)_Tuner Keypad.ced
-Hint=Tuner Keypad (Smart Object ID=173)
-Code=3
-GUID=89160947-8244-4B27-8125-6FA09D7F34E5
-SmplCName=DGE2-V15 - Bohlke_Source (16 - Tuner - Main)_Tuner Keypad.ced
-SMWRev=4.02.19
-Expand=expand_random
-;Define the number of inputs, outputs and parameters
-MinVariableInputs=12
-MaxVariableInputs=12
-MinVariableOutputs=12
-MaxVariableOutputs=12
-NumFixedParams=1
-MinVariableInputsList2=0
-MaxVariableInputsList2=0
-MinVariableOutputsList2=0
-MaxVariableOutputsList2=0
-MinVariableInputsList3=0
-MaxVariableInputsList3=0
-MinVariableOutputsList3=0
-MaxVariableOutputsList3=0
-;Define the cues, and signal types  each input, output and parameter.
-InputCue1=[~UNUSED3~]
-InputSigType1=Digital
-OutputCue1=1
-OutputSigType1=Digital
-InputCue2=[~UNUSED3~]
-InputSigType2=Digital
-OutputCue2=2
-OutputSigType2=Digital
-InputCue3=[~UNUSED3~]
-InputSigType3=Digital
-OutputCue3=3
-OutputSigType3=Digital
-InputCue4=[~UNUSED3~]
-InputSigType4=Digital
-OutputCue4=4
-OutputSigType4=Digital
-InputCue5=[~UNUSED3~]
-InputSigType5=Digital
-OutputCue5=5
-OutputSigType5=Digital
-InputCue6=[~UNUSED3~]
-InputSigType6=Digital
-OutputCue6=6
-OutputSigType6=Digital
-InputCue7=[~UNUSED3~]
-InputSigType7=Digital
-OutputCue7=7
-OutputSigType7=Digital
-InputCue8=[~UNUSED3~]
-InputSigType8=Digital
-OutputCue8=8
-OutputSigType8=Digital
-InputCue9=[~UNUSED3~]
-InputSigType9=Digital
-OutputCue9=9
-OutputSigType9=Digital
-InputCue10=[~UNUSED3~]
-InputSigType10=Digital
-OutputCue10=0
-OutputSigType10=Digital
-InputCue11=[~UNUSED3~]
-InputSigType11=Digital
-OutputCue11=Clear
-OutputSigType11=Digital
-InputCue12=[~UNUSED3~]
-InputSigType12=Digital
-OutputCue12=Enter
-OutputSigType12=Digital
-ParamCue1=SmartObjectId
-ParamSigType1=Constant
-MPp=1
-Pp1=3
-CedH=3
-SmartObjId=173d
-]
-; Parameter Properties for Smart Object ID
-[
-ObjTp=Dp
-H=3
-Tp=1
-HD=TRUE
-DV=173d
-NF=1
-DNF=1
-EncFmt=0
-DVLF=1
-Sgn=0
-]
-; Smart Objects Definition section
-[
-ObjTp=CED
-H=3
-Name=DGE2-V15 - Bohlke_Source (16 - Tuner - Main)_Tuner Keypad.ced
-;Cedver is the version of the Smart Graphics control, not the CED file format.
-;If the control definition changes, increment this.
-CedVer=1
-]
-;================================================================================
-[
-ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (26 CD - Main)_Transports.ced
 Hint=Transports (Smart Object ID=261)
-Code=4
+Code=2
 GUID=9E999062-8CDB-454A-BA2E-5A34C2251D0F
 SmplCName=DGE2-V15 - Bohlke_Source (26 CD - Main)_Transports.ced
 SMWRev=4.02.19
@@ -448,14 +188,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=4
-CedH=4
+Pp1=2
+CedH=2
 SmartObjId=261d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=4
+H=2
 Tp=1
 HD=TRUE
 DV=261d
@@ -468,7 +208,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=4
+H=2
 Name=DGE2-V15 - Bohlke_Source (26 CD - Main)_Transports.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -479,7 +219,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)_Satellite Transports.ced
 Hint=Satellite Transports (Smart Object ID=311)
-Code=5
+Code=3
 GUID=FB41D5BC-D197-440B-B9DC-B0510DE03E6A
 SmplCName=DGE2-V15 - Bohlke_Source (31 Cable - Main)_Satellite Transports.ced
 SMWRev=4.02.19
@@ -566,14 +306,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=5
-CedH=5
+Pp1=3
+CedH=3
 SmartObjId=311d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=5
+H=3
 Tp=1
 HD=TRUE
 DV=311d
@@ -586,7 +326,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=5
+H=3
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)_Satellite Transports.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -597,7 +337,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Favs)_TV Favs.ced
 Hint=TV Favs (Smart Object ID=319)
-Code=6
+Code=4
 GUID=37EE11BA-7FCA-4579-8C64-8198B06C064F
 SmplCName=DGE2-V15 - Bohlke_Source (31 Cable - Favs)_TV Favs.ced
 SMWRev=4.02.19
@@ -812,14 +552,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=6
-CedH=6
+Pp1=4
+CedH=4
 SmartObjId=319d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=6
+H=4
 Tp=1
 HD=TRUE
 DV=319d
@@ -832,7 +572,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=6
+H=4
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Favs)_TV Favs.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -843,7 +583,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (23 XM - Channels)_Channel List.ced
 Hint=Channel List (Smart Object ID=231)
-Code=7
+Code=5
 GUID=DE6388A5-103B-4EA2-9CF0-2F018EC894D5
 SmplCName=DGE2-V15 - Bohlke_Source (23 XM - Channels)_Channel List.ced
 SMWRev=4.02.19
@@ -1146,14 +886,14 @@ OutputList3SigType32=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=7
-CedH=7
+Pp1=5
+CedH=5
 SmartObjId=231d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=7
+H=5
 Tp=1
 HD=TRUE
 DV=231d
@@ -1166,7 +906,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=7
+H=5
 Name=DGE2-V15 - Bohlke_Source (23 XM - Channels)_Channel List.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -1177,7 +917,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (22 XM - Presets)_Preset List.ced
 Hint=Preset List (Smart Object ID=221)
-Code=8
+Code=6
 GUID=C0D9E87B-6FB2-4EA5-AAC5-F182FD94ABA7
 SmplCName=DGE2-V15 - Bohlke_Source (22 XM - Presets)_Preset List.ced
 SMWRev=4.02.19
@@ -1296,14 +1036,14 @@ OutputList3SigType9=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=8
-CedH=8
+Pp1=6
+CedH=6
 SmartObjId=221d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=8
+H=6
 Tp=1
 HD=TRUE
 DV=221d
@@ -1316,7 +1056,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=8
+H=6
 Name=DGE2-V15 - Bohlke_Source (22 XM - Presets)_Preset List.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -1327,7 +1067,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (24 XM - Keypad)_Keypad.ced
 Hint=Keypad (Smart Object ID=241)
-Code=9
+Code=7
 GUID=1D00CB79-D19A-4F5E-A1A1-CB4D04EB235F
 SmplCName=DGE2-V15 - Bohlke_Source (24 XM - Keypad)_Keypad.ced
 SMWRev=4.02.19
@@ -1398,14 +1138,14 @@ OutputSigType12=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=9
-CedH=9
+Pp1=7
+CedH=7
 SmartObjId=241d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=9
+H=7
 Tp=1
 HD=TRUE
 DV=241d
@@ -1418,7 +1158,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=9
+H=7
 Name=DGE2-V15 - Bohlke_Source (24 XM - Keypad)_Keypad.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -1429,7 +1169,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (51 KScape - Main)_Kaleidescape Transports.ced
 Hint=Kaleidescape Transports (Smart Object ID=511)
-Code=10
+Code=8
 GUID=1FF73CA4-B87A-48C4-ADD0-8893AE55D68B
 SmplCName=DGE2-V15 - Bohlke_Source (51 KScape - Main)_Kaleidescape Transports.ced
 SMWRev=4.02.19
@@ -1504,14 +1244,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=10
-CedH=10
+Pp1=8
+CedH=8
 SmartObjId=511d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=10
+H=8
 Tp=1
 HD=TRUE
 DV=511d
@@ -1524,7 +1264,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=10
+H=8
 Name=DGE2-V15 - Bohlke_Source (51 KScape - Main)_Kaleidescape Transports.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -1535,7 +1275,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (51 KScape - Main - Keypad)_KScape Keypad.ced
 Hint=KScape Keypad (Smart Object ID=452)
-Code=11
+Code=9
 GUID=9E67DEEF-9E5E-48B3-86FE-21AF40564CEA
 SmplCName=DGE2-V15 - Bohlke_Source (51 KScape - Main - Keypad)_KScape Keypad.ced
 SMWRev=4.02.19
@@ -1606,14 +1346,14 @@ OutputSigType12=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=11
-CedH=11
+Pp1=9
+CedH=9
 SmartObjId=452d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=11
+H=9
 Tp=1
 HD=TRUE
 DV=452d
@@ -1626,7 +1366,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=11
+H=9
 Name=DGE2-V15 - Bohlke_Source (51 KScape - Main - Keypad)_KScape Keypad.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -1637,7 +1377,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (51 KScape - Main - Navigation)_KScape Navigation.ced
 Hint=KScape Navigation (Smart Object ID=451)
-Code=12
+Code=10
 GUID=BA3FE81B-FF80-49A3-9DB6-0ED45CB598C9
 SmplCName=DGE2-V15 - Bohlke_Source (51 KScape - Main - Navigation)_KScape Navigation.ced
 SMWRev=4.02.19
@@ -1680,14 +1420,14 @@ OutputSigType5=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=12
-CedH=12
+Pp1=10
+CedH=10
 SmartObjId=451d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=12
+H=10
 Tp=1
 HD=TRUE
 DV=451d
@@ -1700,7 +1440,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=12
+H=10
 Name=DGE2-V15 - Bohlke_Source (51 KScape - Main - Navigation)_KScape Navigation.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -1711,7 +1451,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Security (02 - Keypad)_Simple Keypad.ced
 Hint=Simple Keypad (Smart Object ID=61)
-Code=13
+Code=11
 GUID=87DC64F3-A1BF-4388-8089-89FC4D81B423
 SmplCName=DGE2-V15 - Bohlke_Security (02 - Keypad)_Simple Keypad.ced
 SMWRev=4.02.19
@@ -1782,14 +1522,14 @@ OutputSigType12=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=13
-CedH=13
+Pp1=11
+CedH=11
 SmartObjId=61d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=13
+H=11
 Tp=1
 HD=TRUE
 DV=61d
@@ -1802,7 +1542,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=13
+H=11
 Name=DGE2-V15 - Bohlke_Security (02 - Keypad)_Simple Keypad.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -1813,7 +1553,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (41 KScape - SATP - Main)_KScape SATP Transports.ced
 Hint=KScape SATP Transports (Smart Object ID=411)
-Code=14
+Code=12
 GUID=450628A5-AC2E-4714-ACE1-8658F3D8EF05
 SmplCName=DGE2-V15 - Bohlke_Source (41 KScape - SATP - Main)_KScape SATP Transports.ced
 SMWRev=4.02.19
@@ -1888,14 +1628,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=14
-CedH=14
+Pp1=12
+CedH=12
 SmartObjId=411d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=14
+H=12
 Tp=1
 HD=TRUE
 DV=411d
@@ -1908,7 +1648,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=14
+H=12
 Name=DGE2-V15 - Bohlke_Source (41 KScape - SATP - Main)_KScape SATP Transports.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -1919,7 +1659,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (41 KScape - SATP - Main)_Kscape SATP List.ced
 Hint=Kscape SATP List (Smart Object ID=412)
-Code=15
+Code=13
 GUID=4E2D1254-2533-431E-939F-DCB85719B3CC
 SmplCName=DGE2-V15 - Bohlke_Source (41 KScape - SATP - Main)_Kscape SATP List.ced
 SMWRev=4.02.19
@@ -2030,14 +1770,14 @@ OutputList3SigType8=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=15
-CedH=15
+Pp1=13
+CedH=13
 SmartObjId=412d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=15
+H=13
 Tp=1
 HD=TRUE
 DV=412d
@@ -2050,246 +1790,8 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=15
+H=13
 Name=DGE2-V15 - Bohlke_Source (41 KScape - SATP - Main)_Kscape SATP List.ced
-;Cedver is the version of the Smart Graphics control, not the CED file format.
-;If the control definition changes, increment this.
-CedVer=1
-]
-;================================================================================
-[
-ObjTp=Symbol
-Name=DGE2-V15 - Bohlke_Source (15 DSS Music)_DSS Music Preset List.ced
-Hint=DSS Music Preset List (Smart Object ID=152)
-Code=16
-GUID=2F3ABDEE-B639-4F43-8223-9FCFE9664393
-SmplCName=DGE2-V15 - Bohlke_Source (15 DSS Music)_DSS Music Preset List.ced
-SMWRev=4.02.19
-Expand=expand_random
-;Define the number of inputs, outputs and parameters
-MinVariableInputs=20
-MaxVariableInputs=20
-MinVariableOutputs=20
-MaxVariableOutputs=20
-NumFixedParams=1
-MinVariableInputsList2=6
-MaxVariableInputsList2=6
-MinVariableOutputsList2=6
-MaxVariableOutputsList2=6
-MinVariableInputsList3=20
-MaxVariableInputsList3=20
-MinVariableOutputsList3=20
-MaxVariableOutputsList3=20
-;Define the cues, and signal types  each input, output and parameter.
-InputCue1=[~UNUSED3~]
-InputSigType1=Digital
-OutputCue1=Item 1 Pressed
-OutputSigType1=Digital
-InputCue2=[~UNUSED3~]
-InputSigType2=Digital
-OutputCue2=Item 2 Pressed
-OutputSigType2=Digital
-InputCue3=[~UNUSED3~]
-InputSigType3=Digital
-OutputCue3=Item 3 Pressed
-OutputSigType3=Digital
-InputCue4=[~UNUSED3~]
-InputSigType4=Digital
-OutputCue4=Item 4 Pressed
-OutputSigType4=Digital
-InputCue5=[~UNUSED3~]
-InputSigType5=Digital
-OutputCue5=Item 5 Pressed
-OutputSigType5=Digital
-InputCue6=[~UNUSED3~]
-InputSigType6=Digital
-OutputCue6=Item 6 Pressed
-OutputSigType6=Digital
-InputCue7=[~UNUSED3~]
-InputSigType7=Digital
-OutputCue7=Item 7 Pressed
-OutputSigType7=Digital
-InputCue8=[~UNUSED3~]
-InputSigType8=Digital
-OutputCue8=Item 8 Pressed
-OutputSigType8=Digital
-InputCue9=[~UNUSED3~]
-InputSigType9=Digital
-OutputCue9=Item 9 Pressed
-OutputSigType9=Digital
-InputCue10=[~UNUSED3~]
-InputSigType10=Digital
-OutputCue10=Item 10 Pressed
-OutputSigType10=Digital
-InputCue11=[~UNUSED3~]
-InputSigType11=Digital
-OutputCue11=Item 11 Pressed
-OutputSigType11=Digital
-InputCue12=[~UNUSED3~]
-InputSigType12=Digital
-OutputCue12=Item 12 Pressed
-OutputSigType12=Digital
-InputCue13=[~UNUSED3~]
-InputSigType13=Digital
-OutputCue13=Item 13 Pressed
-OutputSigType13=Digital
-InputCue14=[~UNUSED3~]
-InputSigType14=Digital
-OutputCue14=Item 14 Pressed
-OutputSigType14=Digital
-InputCue15=[~UNUSED3~]
-InputSigType15=Digital
-OutputCue15=Item 15 Pressed
-OutputSigType15=Digital
-InputCue16=[~UNUSED3~]
-InputSigType16=Digital
-OutputCue16=Item 16 Pressed
-OutputSigType16=Digital
-InputCue17=[~UNUSED3~]
-InputSigType17=Digital
-OutputCue17=Item 17 Pressed
-OutputSigType17=Digital
-InputCue18=[~UNUSED3~]
-InputSigType18=Digital
-OutputCue18=Item 18 Pressed
-OutputSigType18=Digital
-InputCue19=[~UNUSED3~]
-InputSigType19=Digital
-OutputCue19=Item 19 Pressed
-OutputSigType19=Digital
-InputCue20=[~UNUSED3~]
-InputSigType20=Digital
-OutputCue20=Item 20 Pressed
-OutputSigType20=Digital
-InputList2Cue1=Select Item
-InputList2SigType1=Analog
-OutputList2Cue1=[~UNUSED3~]
-OutputList2SigType1=Analog
-InputList2Cue2=Deselect Item
-InputList2SigType2=Analog
-OutputList2Cue2=[~UNUSED3~]
-OutputList2SigType2=Analog
-InputList2Cue3=Scroll Item
-InputList2SigType3=Analog
-OutputList2Cue3=[~UNUSED3~]
-OutputList2SigType3=Analog
-InputList2Cue4=[~UNUSED3~]
-InputList2SigType4=Analog
-OutputList2Cue4=Item Clicked
-OutputList2SigType4=Analog
-InputList2Cue5=[~UNUSED3~]
-InputList2SigType5=Analog
-OutputList2Cue5=Item Held
-OutputList2SigType5=Analog
-InputList2Cue6=Set Num of Items
-InputList2SigType6=Analog
-OutputList2Cue6=[~UNUSED3~]
-OutputList2SigType6=Analog
-InputList3Cue1=Item 1 Text
-InputList3SigType1=Serial
-OutputList3Cue1=[~UNUSED3~]
-OutputList3SigType1=Serial
-InputList3Cue2=Item 2 Text
-InputList3SigType2=Serial
-OutputList3Cue2=[~UNUSED3~]
-OutputList3SigType2=Serial
-InputList3Cue3=Item 3 Text
-InputList3SigType3=Serial
-OutputList3Cue3=[~UNUSED3~]
-OutputList3SigType3=Serial
-InputList3Cue4=Item 4 Text
-InputList3SigType4=Serial
-OutputList3Cue4=[~UNUSED3~]
-OutputList3SigType4=Serial
-InputList3Cue5=Item 5 Text
-InputList3SigType5=Serial
-OutputList3Cue5=[~UNUSED3~]
-OutputList3SigType5=Serial
-InputList3Cue6=Item 6 Text
-InputList3SigType6=Serial
-OutputList3Cue6=[~UNUSED3~]
-OutputList3SigType6=Serial
-InputList3Cue7=Item 7 Text
-InputList3SigType7=Serial
-OutputList3Cue7=[~UNUSED3~]
-OutputList3SigType7=Serial
-InputList3Cue8=Item 8 Text
-InputList3SigType8=Serial
-OutputList3Cue8=[~UNUSED3~]
-OutputList3SigType8=Serial
-InputList3Cue9=Item 9 Text
-InputList3SigType9=Serial
-OutputList3Cue9=[~UNUSED3~]
-OutputList3SigType9=Serial
-InputList3Cue10=Item 10 Text
-InputList3SigType10=Serial
-OutputList3Cue10=[~UNUSED3~]
-OutputList3SigType10=Serial
-InputList3Cue11=Item 11 Text
-InputList3SigType11=Serial
-OutputList3Cue11=[~UNUSED3~]
-OutputList3SigType11=Serial
-InputList3Cue12=Item 12 Text
-InputList3SigType12=Serial
-OutputList3Cue12=[~UNUSED3~]
-OutputList3SigType12=Serial
-InputList3Cue13=Item 13 Text
-InputList3SigType13=Serial
-OutputList3Cue13=[~UNUSED3~]
-OutputList3SigType13=Serial
-InputList3Cue14=Item 14 Text
-InputList3SigType14=Serial
-OutputList3Cue14=[~UNUSED3~]
-OutputList3SigType14=Serial
-InputList3Cue15=Item 15 Text
-InputList3SigType15=Serial
-OutputList3Cue15=[~UNUSED3~]
-OutputList3SigType15=Serial
-InputList3Cue16=Item 16 Text
-InputList3SigType16=Serial
-OutputList3Cue16=[~UNUSED3~]
-OutputList3SigType16=Serial
-InputList3Cue17=Item 17 Text
-InputList3SigType17=Serial
-OutputList3Cue17=[~UNUSED3~]
-OutputList3SigType17=Serial
-InputList3Cue18=Item 18 Text
-InputList3SigType18=Serial
-OutputList3Cue18=[~UNUSED3~]
-OutputList3SigType18=Serial
-InputList3Cue19=Item 19 Text
-InputList3SigType19=Serial
-OutputList3Cue19=[~UNUSED3~]
-OutputList3SigType19=Serial
-InputList3Cue20=Item 20 Text
-InputList3SigType20=Serial
-OutputList3Cue20=[~UNUSED3~]
-OutputList3SigType20=Serial
-ParamCue1=SmartObjectId
-ParamSigType1=Constant
-MPp=1
-Pp1=16
-CedH=16
-SmartObjId=152d
-]
-; Parameter Properties for Smart Object ID
-[
-ObjTp=Dp
-H=16
-Tp=1
-HD=TRUE
-DV=152d
-NF=1
-DNF=1
-EncFmt=0
-DVLF=1
-Sgn=0
-]
-; Smart Objects Definition section
-[
-ObjTp=CED
-H=16
-Name=DGE2-V15 - Bohlke_Source (15 DSS Music)_DSS Music Preset List.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1
@@ -2299,7 +1801,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Main (04 Lighting - Menu)_Lighting Areas.ced
 Hint=Lighting Areas (Smart Object ID=41)
-Code=17
+Code=14
 GUID=61CEEAAF-D713-4C50-8FD4-676040A96CCA
 SmplCName=DGE2-V15 - Bohlke_Main (04 Lighting - Menu)_Lighting Areas.ced
 SMWRev=4.02.19
@@ -2350,14 +1852,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=17
-CedH=17
+Pp1=14
+CedH=14
 SmartObjId=41d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=17
+H=14
 Tp=1
 HD=TRUE
 DV=41d
@@ -2370,7 +1872,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=17
+H=14
 Name=DGE2-V15 - Bohlke_Main (04 Lighting - Menu)_Lighting Areas.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -2381,7 +1883,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Main (03 Climate - Menu)_Climate Areas.ced
 Hint=Climate Areas (Smart Object ID=31)
-Code=18
+Code=15
 GUID=76F0F131-0E19-4EAA-B8C3-83382FC344B3
 SmplCName=DGE2-V15 - Bohlke_Main (03 Climate - Menu)_Climate Areas.ced
 SMWRev=4.02.19
@@ -2436,14 +1938,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=18
-CedH=18
+Pp1=15
+CedH=15
 SmartObjId=31d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=18
+H=15
 Tp=1
 HD=TRUE
 DV=31d
@@ -2456,172 +1958,8 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=18
+H=15
 Name=DGE2-V15 - Bohlke_Main (03 Climate - Menu)_Climate Areas.ced
-;Cedver is the version of the Smart Graphics control, not the CED file format.
-;If the control definition changes, increment this.
-CedVer=1
-]
-;================================================================================
-[
-ObjTp=Symbol
-Name=DGE2-V15 - Bohlke_Source (14 AppleTV - Main)_Apple TV Navigation.ced
-Hint=Apple TV Navigation (Smart Object ID=143)
-Code=19
-GUID=C6218D08-451B-4FE7-B444-9824A20D2ACC
-SmplCName=DGE2-V15 - Bohlke_Source (14 AppleTV - Main)_Apple TV Navigation.ced
-SMWRev=4.02.19
-Expand=expand_random
-;Define the number of inputs, outputs and parameters
-MinVariableInputs=5
-MaxVariableInputs=5
-MinVariableOutputs=5
-MaxVariableOutputs=5
-NumFixedParams=1
-MinVariableInputsList2=0
-MaxVariableInputsList2=0
-MinVariableOutputsList2=0
-MaxVariableOutputsList2=0
-MinVariableInputsList3=0
-MaxVariableInputsList3=0
-MinVariableOutputsList3=0
-MaxVariableOutputsList3=0
-;Define the cues, and signal types  each input, output and parameter.
-InputCue1=[~UNUSED3~]
-InputSigType1=Digital
-OutputCue1=Up
-OutputSigType1=Digital
-InputCue2=[~UNUSED3~]
-InputSigType2=Digital
-OutputCue2=Down
-OutputSigType2=Digital
-InputCue3=[~UNUSED3~]
-InputSigType3=Digital
-OutputCue3=Left
-OutputSigType3=Digital
-InputCue4=[~UNUSED3~]
-InputSigType4=Digital
-OutputCue4=Right
-OutputSigType4=Digital
-InputCue5=[~UNUSED3~]
-InputSigType5=Digital
-OutputCue5=OK
-OutputSigType5=Digital
-ParamCue1=SmartObjectId
-ParamSigType1=Constant
-MPp=1
-Pp1=19
-CedH=19
-SmartObjId=143d
-]
-; Parameter Properties for Smart Object ID
-[
-ObjTp=Dp
-H=19
-Tp=1
-HD=TRUE
-DV=143d
-NF=1
-DNF=1
-EncFmt=0
-DVLF=1
-Sgn=0
-]
-; Smart Objects Definition section
-[
-ObjTp=CED
-H=19
-Name=DGE2-V15 - Bohlke_Source (14 AppleTV - Main)_Apple TV Navigation.ced
-;Cedver is the version of the Smart Graphics control, not the CED file format.
-;If the control definition changes, increment this.
-CedVer=1
-]
-;================================================================================
-[
-ObjTp=Symbol
-Name=DGE2-V15 - Bohlke_Source (14 AppleTV - Main)_AppleTV Transports.ced
-Hint=AppleTV Transports (Smart Object ID=141)
-Code=20
-GUID=C4611672-FD28-4057-A80D-0ACC7FB853BB
-SmplCName=DGE2-V15 - Bohlke_Source (14 AppleTV - Main)_AppleTV Transports.ced
-SMWRev=4.02.19
-Expand=expand_random
-;Define the number of inputs, outputs and parameters
-MinVariableInputs=3
-MaxVariableInputs=3
-MinVariableOutputs=3
-MaxVariableOutputs=3
-NumFixedParams=1
-MinVariableInputsList2=6
-MaxVariableInputsList2=6
-MinVariableOutputsList2=6
-MaxVariableOutputsList2=6
-MinVariableInputsList3=0
-MaxVariableInputsList3=0
-MinVariableOutputsList3=0
-MaxVariableOutputsList3=0
-;Define the cues, and signal types  each input, output and parameter.
-InputCue1=[~UNUSED3~]
-InputSigType1=Digital
-OutputCue1=Item 1 Pressed
-OutputSigType1=Digital
-InputCue2=[~UNUSED3~]
-InputSigType2=Digital
-OutputCue2=Item 2 Pressed
-OutputSigType2=Digital
-InputCue3=[~UNUSED3~]
-InputSigType3=Digital
-OutputCue3=Item 3 Pressed
-OutputSigType3=Digital
-InputList2Cue1=Select Item
-InputList2SigType1=Analog
-OutputList2Cue1=[~UNUSED3~]
-OutputList2SigType1=Analog
-InputList2Cue2=Deselect Item
-InputList2SigType2=Analog
-OutputList2Cue2=[~UNUSED3~]
-OutputList2SigType2=Analog
-InputList2Cue3=Scroll Item
-InputList2SigType3=Analog
-OutputList2Cue3=[~UNUSED3~]
-OutputList2SigType3=Analog
-InputList2Cue4=[~UNUSED3~]
-InputList2SigType4=Analog
-OutputList2Cue4=Item Clicked
-OutputList2SigType4=Analog
-InputList2Cue5=[~UNUSED3~]
-InputList2SigType5=Analog
-OutputList2Cue5=Item Held
-OutputList2SigType5=Analog
-InputList2Cue6=Set Num of Items
-InputList2SigType6=Analog
-OutputList2Cue6=[~UNUSED3~]
-OutputList2SigType6=Analog
-ParamCue1=SmartObjectId
-ParamSigType1=Constant
-MPp=1
-Pp1=20
-CedH=20
-SmartObjId=141d
-]
-; Parameter Properties for Smart Object ID
-[
-ObjTp=Dp
-H=20
-Tp=1
-HD=TRUE
-DV=141d
-NF=1
-DNF=1
-EncFmt=0
-DVLF=1
-Sgn=0
-]
-; Smart Objects Definition section
-[
-ObjTp=CED
-H=20
-Name=DGE2-V15 - Bohlke_Source (14 AppleTV - Main)_AppleTV Transports.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1
@@ -2631,8 +1969,8 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Main (00 - Areas)_Area Groups List.ced
 Hint=Area Groups List (Smart Object ID=12)
-Code=21
-GUID=42806A8C-7CB4-4874-AC85-D5F4EA1C5437
+Code=16
+GUID=DC94DCA8-D793-4E6C-AFC0-829C797AE4AF
 SmplCName=DGE2-V15 - Bohlke_Main (00 - Areas)_Area Groups List.ced
 SMWRev=4.02.19
 Expand=expand_random
@@ -2702,14 +2040,14 @@ OutputList3SigType3=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=21
-CedH=21
+Pp1=16
+CedH=16
 SmartObjId=12d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=21
+H=16
 Tp=1
 HD=TRUE
 DV=12d
@@ -2722,7 +2060,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=21
+H=16
 Name=DGE2-V15 - Bohlke_Main (00 - Areas)_Area Groups List.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -2733,7 +2071,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox2 Menu.ced
 Hint=Jukebox2 Menu (Smart Object ID=724)
-Code=22
+Code=17
 GUID=901DDE5E-CAFC-44B8-B8F8-9DDA690E23D0
 SmplCName=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox2 Menu.ced
 SMWRev=4.02.19
@@ -2792,14 +2130,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=22
-CedH=22
+Pp1=17
+CedH=17
 SmartObjId=724d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=22
+H=17
 Tp=1
 HD=TRUE
 DV=724d
@@ -2812,7 +2150,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=22
+H=17
 Name=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox2 Menu.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -2823,7 +2161,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox2 Transports_1.ced
 Hint=Jukebox2 Transports_1 (Smart Object ID=723)
-Code=23
+Code=18
 GUID=4FACE097-7044-4371-898A-DE2B03CD2349
 SmplCName=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox2 Transports_1.ced
 SMWRev=4.02.19
@@ -2886,14 +2224,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=23
-CedH=23
+Pp1=18
+CedH=18
 SmartObjId=723d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=23
+H=18
 Tp=1
 HD=TRUE
 DV=723d
@@ -2906,7 +2244,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=23
+H=18
 Name=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox2 Transports_1.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -2917,7 +2255,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox List.ced
 Hint=Jukebox List (Smart Object ID=721)
-Code=24
+Code=19
 GUID=D6A51BD0-F580-4B3A-B480-C845B9800856
 SmplCName=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox List.ced
 SMWRev=4.02.19
@@ -3028,14 +2366,14 @@ OutputList3SigType8=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=24
-CedH=24
+Pp1=19
+CedH=19
 SmartObjId=721d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=24
+H=19
 Tp=1
 HD=TRUE
 DV=721d
@@ -3048,7 +2386,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=24
+H=19
 Name=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox List.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -3059,7 +2397,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Cable Navigation.ced
 Hint=Cable Navigation (Smart Object ID=313)
-Code=25
+Code=20
 GUID=F27A7C14-8596-4DAB-9E94-1DE0E030B1FF
 SmplCName=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Cable Navigation.ced
 SMWRev=4.02.19
@@ -3102,14 +2440,14 @@ OutputSigType5=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=25
-CedH=25
+Pp1=20
+CedH=20
 SmartObjId=313d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=25
+H=20
 Tp=1
 HD=TRUE
 DV=313d
@@ -3122,7 +2460,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=25
+H=20
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Cable Navigation.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -3133,7 +2471,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Satellite Menu Items.ced
 Hint=Satellite Menu Items (Smart Object ID=314)
-Code=26
+Code=21
 GUID=872D54F0-DB31-464D-B116-8BE36C8FEB43
 SmplCName=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Satellite Menu Items.ced
 SMWRev=4.02.19
@@ -3244,14 +2582,14 @@ OutputList3SigType8=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=26
-CedH=26
+Pp1=21
+CedH=21
 SmartObjId=314d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=26
+H=21
 Tp=1
 HD=TRUE
 DV=314d
@@ -3264,7 +2602,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=26
+H=21
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Satellite Menu Items.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -3275,7 +2613,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Satellite Keypad.ced
 Hint=Satellite Keypad (Smart Object ID=312)
-Code=27
+Code=22
 GUID=E670C0C6-1998-46C7-A432-6FB10C0D67EE
 SmplCName=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Satellite Keypad.ced
 SMWRev=4.02.19
@@ -3346,14 +2684,14 @@ OutputSigType12=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=27
-CedH=27
+Pp1=22
+CedH=22
 SmartObjId=312d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=27
+H=22
 Tp=1
 HD=TRUE
 DV=312d
@@ -3366,7 +2704,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=27
+H=22
 Name=DGE2-V15 - Bohlke_Source (31 Cable - Main)-1_Satellite Keypad.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
@@ -3377,7 +2715,7 @@ CedVer=1
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Letters)_Jukebox Letters.ced
 Hint=Jukebox Letters (Smart Object ID=722)
-Code=28
+Code=23
 GUID=F5F1584D-0F2E-4045-81F2-15A9AEE9FE32
 SmplCName=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Letters)_Jukebox Letters.ced
 SMWRev=4.02.19
@@ -3568,14 +2906,14 @@ OutputList2SigType6=Analog
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=28
-CedH=28
+Pp1=23
+CedH=23
 SmartObjId=722d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=28
+H=23
 Tp=1
 HD=TRUE
 DV=722d
@@ -3588,9 +2926,80 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=28
+H=23
 Name=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Letters)_Jukebox Letters.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=DGE2-V15 - Bohlke_Source (CPRC Media Player)_Media Player Application.ced
+Hint=Media Player Application (Smart Object ID=301)
+Code=24
+GUID=C2E4C64F-82AB-46BA-A8C5-7FC23F517FDE
+SmplCName=DGE2-V15 - Bohlke_Source (CPRC Media Player)_Media Player Application.ced
+SMWRev=4.02.19
+Expand=expand_random
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=2
+MaxVariableInputs=2
+MinVariableOutputs=2
+MaxVariableOutputs=2
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=2
+MaxVariableInputsList3=2
+MinVariableOutputsList3=2
+MaxVariableOutputsList3=2
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=Refresh
+InputSigType1=Digital
+OutputCue1=[~UNUSED3~]
+OutputSigType1=Digital
+InputCue2=Offline
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputList3Cue1=CRPC_FB
+InputList3SigType1=Serial
+OutputList3Cue1=CRPC
+OutputList3SigType1=Serial
+InputList3Cue2=Player_Name
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=24
+CedH=24
+SmartObjId=301d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=24
+Tp=1
+HD=TRUE
+DV=301d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=24
+Name=DGE2-V15 - Bohlke_Source (CPRC Media Player)_Media Player Application.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+CedMod=Media Server Object Router v1.0.cmc
 ]
