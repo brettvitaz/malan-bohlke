@@ -1,2 +1,5 @@
 Program/SPlsWork/
 *.ASV
+*.csh
+*.c3p
+*.old

@@ -4,13 +4,13 @@ Sgntr=FlashComposite
 ;Increment this version when CED file format changes
 RelVrs=2
 IntStrVrs=1
-VTProeVer=5.5.08
+VTProeVer=5.5.11
 ]
 [
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox List.ced
 Hint=Jukebox List (Smart Object ID=721)
-Code=19
+Code=21
 GUID=D6A51BD0-F580-4B3A-B480-C845B9800856
 SmplCName=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox List.ced
 SMWRev=4.02.19
@@ -121,14 +121,14 @@ OutputList3SigType8=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=19
-CedH=19
+Pp1=21
+CedH=21
 SmartObjId=721d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=19
+H=21
 Tp=1
 HD=TRUE
 DV=721d
@@ -141,7 +141,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=19
+H=21
 Name=DGE2-V15 - Bohlke_Source (71 Jukebox2 - Main)_Jukebox List.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

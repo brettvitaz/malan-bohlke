@@ -4,13 +4,13 @@ Sgntr=FlashComposite
 ;Increment this version when CED file format changes
 RelVrs=2
 IntStrVrs=1
-VTProeVer=5.5.08
+VTProeVer=5.5.11
 ]
 [
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Main (00 - Areas)_Area Groups List.ced
 Hint=Area Groups List (Smart Object ID=12)
-Code=16
+Code=18
 GUID=DC94DCA8-D793-4E6C-AFC0-829C797AE4AF
 SmplCName=DGE2-V15 - Bohlke_Main (00 - Areas)_Area Groups List.ced
 SMWRev=4.02.19
@@ -81,14 +81,14 @@ OutputList3SigType3=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=16
-CedH=16
+Pp1=18
+CedH=18
 SmartObjId=12d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=16
+H=18
 Tp=1
 HD=TRUE
 DV=12d
@@ -101,7 +101,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=16
+H=18
 Name=DGE2-V15 - Bohlke_Main (00 - Areas)_Area Groups List.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

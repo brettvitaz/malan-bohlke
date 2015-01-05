@@ -4,13 +4,13 @@ Sgntr=FlashComposite
 ;Increment this version when CED file format changes
 RelVrs=2
 IntStrVrs=1
-VTProeVer=5.5.08
+VTProeVer=5.5.11
 ]
 [
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (41 KScape - SATP - Main)_Kscape SATP List.ced
 Hint=Kscape SATP List (Smart Object ID=412)
-Code=13
+Code=15
 GUID=4E2D1254-2533-431E-939F-DCB85719B3CC
 SmplCName=DGE2-V15 - Bohlke_Source (41 KScape - SATP - Main)_Kscape SATP List.ced
 SMWRev=4.02.19
@@ -121,14 +121,14 @@ OutputList3SigType8=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=13
-CedH=13
+Pp1=15
+CedH=15
 SmartObjId=412d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=13
+H=15
 Tp=1
 HD=TRUE
 DV=412d
@@ -141,7 +141,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=13
+H=15
 Name=DGE2-V15 - Bohlke_Source (41 KScape - SATP - Main)_Kscape SATP List.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

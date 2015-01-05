@@ -4,13 +4,13 @@ Sgntr=FlashComposite
 ;Increment this version when CED file format changes
 RelVrs=2
 IntStrVrs=1
-VTProeVer=5.5.08
+VTProeVer=5.5.11
 ]
 [
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (51 KScape - Main - Navigation)_KScape Navigation.ced
 Hint=KScape Navigation (Smart Object ID=451)
-Code=10
+Code=12
 GUID=BA3FE81B-FF80-49A3-9DB6-0ED45CB598C9
 SmplCName=DGE2-V15 - Bohlke_Source (51 KScape - Main - Navigation)_KScape Navigation.ced
 SMWRev=4.02.19
@@ -53,14 +53,14 @@ OutputSigType5=Digital
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=10
-CedH=10
+Pp1=12
+CedH=12
 SmartObjId=451d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=10
+H=12
 Tp=1
 HD=TRUE
 DV=451d
@@ -73,7 +73,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=10
+H=12
 Name=DGE2-V15 - Bohlke_Source (51 KScape - Main - Navigation)_KScape Navigation.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

@@ -4,13 +4,13 @@ Sgntr=FlashComposite
 ;Increment this version when CED file format changes
 RelVrs=2
 IntStrVrs=1
-VTProeVer=5.5.08
+VTProeVer=5.5.11
 ]
 [
 ObjTp=Symbol
 Name=DGE2-V15 - Bohlke_Source (CPRC Media Player)_Media Player Application.ced
 Hint=Media Player Application (Smart Object ID=301)
-Code=24
+Code=26
 GUID=C2E4C64F-82AB-46BA-A8C5-7FC23F517FDE
 SmplCName=DGE2-V15 - Bohlke_Source (CPRC Media Player)_Media Player Application.ced
 SMWRev=4.02.19
@@ -49,14 +49,14 @@ OutputList3SigType2=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=24
-CedH=24
+Pp1=26
+CedH=26
 SmartObjId=301d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=24
+H=26
 Tp=1
 HD=TRUE
 DV=301d
@@ -69,7 +69,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=24
+H=26
 Name=DGE2-V15 - Bohlke_Source (CPRC Media Player)_Media Player Application.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
